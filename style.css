@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Author";
+  src: url(assets/Author-Regular.woff2), url(assets/Author-Regular.woff);
+}
+@font-face {
+  font-family: "Author-Bold";
+  src: url(assets/Author-Bold.woff2), url(assets/Author-Bold.woff2);
+}
+
+body {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 200px;
+}
+
+main {
+  /* base styling   */
+  outline: 4px #CCD2D8;
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  /* change if you like */
+  text-align: center;
+  background: #073A73;
+}
+
+main h1 {
+  font-family: Author;
+  color: #FFFFFF;
+}
+
+data {
+  display: block;
+  /**font-family: Author;**/
+  padding: 5px;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+
+#city, #city2 {
+  font-size: 2em;
+  font-family: Author-Bold;
+  padding-botom: 5px;
+}
+
+#temp, #temp2 {
+    font-family: "Author";
+    font-size: 1.2em;
+}
+
+#humidity, #humidity2 {
+    font-family: "Author";
+    font-size: 1.2em;
+}
+
+#feels1, #feels2 {
+    font-family: "Author";
+    font-size: 1.2em;
+}
